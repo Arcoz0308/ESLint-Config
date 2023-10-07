@@ -4,7 +4,7 @@ module.exports = {
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking"
     ],
-    "parser": "@typescript/parser",
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
       "project": true
     },
@@ -83,7 +83,7 @@ module.exports = {
   
       "no-regex-spaces": "error",
   
-      "camelcase": ["error", "always", { "ignoreDestructuring": true }],
+      "camelcase": "error",
   
       "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true }],
   

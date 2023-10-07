@@ -1,13 +1,17 @@
 {
-  "name": "eslint",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@arcoz/eslint-config",
+  "version": "1.1.0",
+  "description": "My personnal ESLint config ",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcoz0308/ESLint-Config.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arcoz0308",
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">=8.45.0",
@@ -16,5 +20,13 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Arcoz0308/ESLint-Config/issues"
+  },
+  "homepage": "https://github.com/Arcoz0308/ESLint-Config#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint ."
   }
 }
