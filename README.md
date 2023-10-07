@@ -24,4 +24,5 @@ For example:
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   }
-}```
+}
+```
