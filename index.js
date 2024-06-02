@@ -85,8 +85,6 @@ module.exports = {
   
       "camelcase": "error",
   
-      "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true }],
-  
       "@typescript-eslint/member-delimiter-style": [
         "error", 
         {
